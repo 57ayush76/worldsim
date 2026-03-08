@@ -289,14 +289,14 @@ const SimulationsSection = () => {
       icon: Network,
       delay: 0.1
     },
-    {
-      title: 'Agentic Recent Simulations',
-      description: 'Experience our latest breakthrough in autonomous agent behavior and conflict resolution.',
-      url: 'https://worldweave-conflicts.lovable.app/',
-      gradient: 'from-purple-500 via-pink-500 to-rose-500',
-      icon: Cpu,
-      delay: 0.2
-    }
+    // {
+    //   title: 'Agentic Recent Simulations',
+    //   description: 'Experience our latest breakthrough in autonomous agent behavior and conflict resolution.',
+    //   url: 'https://worldweave-conflicts.lovable.app/',
+    //   gradient: 'from-purple-500 via-pink-500 to-rose-500',
+    //   icon: Cpu,
+    //   delay: 0.2
+    // }
   ];
 
   return (
@@ -315,7 +315,7 @@ const SimulationsSection = () => {
         </div>
 
         {/* Buttons Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           {simulations.map((sim, index) => (
             <a
               key={index}
